@@ -1,0 +1,11 @@
+{
+    "nombre": "Nombre",
+    "edad": "Edad",
+    "telefonos": [
+        {
+            "tipo": "Tipo teléfono",
+            "numero": "Numero telefono"
+        }
+    ],
+    "email": "Email"
+}

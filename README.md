@@ -3,10 +3,10 @@
 Este es un ejemplo de cómo leer un archivo JSON y mostrar su contenido en formato de lista HTML utilizando JavaScript.
 
 ## Uso
-
-1. Seleccione el archivo JSON haciendo clic en el botón "Seleccionar archivo".
-2. Haga clic en el botón "Cargar contenido".
-3. El contenido del archivo JSON se mostrará en una lista en la página.
+1. Se requiere el uso de el paquete http-server de npm, puede usarse sin instalar tal que npx http-server [PATH]
+2. Seleccione el archivo JSON haciendo clic en el botón "Seleccionar archivo".
+3. Haga clic en el botón "Cargar contenido".
+4. El contenido del archivo JSON se mostrará en una lista en la página.
 
 ## Formato del archivo JSON
 
@@ -34,8 +34,8 @@ Este ejemplo no admite archivos JSON grandes. Además, solo se admite un archivo
 
 ## Contribuir
 
-Si desea contribuir a este ejemplo, abra un problema o envíe una solicitud de extracción.
+No es necesario contribuir
 
 ## Licencia
 
-Este ejemplo está disponible bajo la Licencia MIT.
+Este ejemplo está disponible sin necesidad de licencia.
