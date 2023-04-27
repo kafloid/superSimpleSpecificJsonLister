@@ -1,10 +1,14 @@
 {
-    "nombre": "Nombre",
-    "edad": "Edad",
+    "nombre": "Juan Perez",
+    "edad": "26",
     "telefonos": [
         {
-            "tipo": "Tipo teléfono",
-            "numero": "Numero telefono"
+            "tipo": "Hogar",
+            "numero": "3124567"
+        },
+        {
+            "tipo": "Personal",
+            "numero": "3124567321"
         }
     ],
     "email": "Email"

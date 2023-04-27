@@ -14,6 +14,7 @@ input.addEventListener('change', (event) => {
         const text = event.target.result;
         const data = JSON.parse(text);
         const ul = document.getElementById('person-list');
+        ul.className = 'collection';
 
         // Agrega los elementos a la lista
         const liNombre = document.createElement('li');
@@ -32,6 +33,7 @@ input.addEventListener('change', (event) => {
         const ulTelefonos = document.createElement('ul');
         for (let i = 0; i < data.telefonos.length; i++) {
             const liTelefono = document.createElement('li');
+            liTelefono.className = 'collection-item'
             liTelefono.textContent = `${data.telefonos[i].tipo}: ${data.telefonos[i].numero}`;
             ulTelefonos.appendChild(liTelefono);
         }
